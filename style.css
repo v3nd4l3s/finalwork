@@ -1,0 +1,95 @@
+body {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  background: url("./img/background.jpg") no-repeat center;
+  height: 100%;
+  color: #fff;
+  font-family: Arial;
+}
+A {
+  text-decoration: none;
+ color: rgb(255, 255, 255);
+}
+A:visited {
+  text-decoration: none;
+ color: #ffffff;
+}
+A:active {
+  text-decoration: none;
+ color: #b8b8b8;
+}
+
+.header {
+        font-family: Arial;
+        font-size: 23px;
+  color: #fff;
+  background-color: #525252;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 85px;
+}
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 63px;
+}
+
+.menu-item a {
+  color: #fff;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.main-text {
+  font-weight: 500;
+  font-size: 53px;
+  line-height: 70px;
+}
+
+.quote {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  opacity: 0.7;
+  margin-left: 0;
+}
+.main {
+  max-width: 800px;
+}
+#callback {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(39, 39, 39);
+  position: absolute;
+  bottom: 35px;
+  transform: translateX(-135%);
+ }
+ #callback p {
+  color: #ffffff;
+  padding: 66px;
+ }
+ #callback:after {
+  content: 'Поддержка';
+  color: #ffffff;
+  background-color: rgb(70, 70, 70);
+  text-align: center;
+  border-radius: 0 0 8px 8px;
+  padding: 25px 0;
+  width: 150px;
+  position: absolute; 
+  left: 300px; 
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+ }
+ #callback:hover {
+  transform: translateX(-40%);
+  transition: all 0.7s ease;
+ }
